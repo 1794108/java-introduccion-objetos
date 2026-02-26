@@ -9,6 +9,11 @@ public class Cuenta {
 
     private static int total;
 
+    /**
+     * Descripcion del metodo cuenta
+     * @param agencia {int} especifica la agencia
+     * @param numero {int} especifica el numero de cuenta
+     */
     public Cuenta( int agencia, int numero) {
         this.agencia = agencia;
         this.numero = numero;
@@ -20,6 +25,12 @@ public class Cuenta {
     public void deposita(double valor) {
         this.saldo = this.saldo + valor;
     }
+
+    /**
+     * descripcion del metodo
+     * @param valor {double} valor a comprobar
+     * @return {boolean} devuelve si elvalor sale o entra de la cuenta
+     */
 
     public boolean saca(double valor) {
         if(this.saldo >= valor) {

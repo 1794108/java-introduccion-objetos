@@ -1,4 +1,9 @@
 package dawEntornos;
+/**
+ * Descripcion de la clase cliente
+ * @author lucia
+ * @version 1.0
+ */
 
 public class Cliente {
 
