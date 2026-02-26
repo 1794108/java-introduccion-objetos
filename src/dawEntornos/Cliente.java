@@ -1,10 +1,19 @@
-package bytebank;
+package dawEntornos;
 
 public class Cliente {
 
-    private String nombre;
+     private String nombre;
     private String documento;
     private String telefono;
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + getNombre() + '\'' +
+                ", documento='" + documento + '\'' +
+                ", telefono='" + telefono + '\'' +
+                '}';
+    }
 
     public String getNombre() {
         return nombre;

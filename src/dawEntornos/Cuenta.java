@@ -1,4 +1,4 @@
-package bytebank;
+package dawEntornos;
 
 public class Cuenta {
 
@@ -76,4 +76,7 @@ public class Cuenta {
         return Cuenta.total;
     }
 
+    public Cuenta(double saldo) {
+        this.saldo = saldo;
+    }
 }
